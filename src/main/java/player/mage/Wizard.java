@@ -2,7 +2,7 @@ package player.mage;
 
 public class Wizard extends Mage {
 
-    public Wizard(String name, int hp) {
-        super(name, hp);
+    public Wizard(String name, String maxHp, int hp) {
+        super(name, maxHp, hp);
     }
 }

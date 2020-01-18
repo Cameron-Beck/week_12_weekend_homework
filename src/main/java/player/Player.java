@@ -3,10 +3,12 @@ package player;
 
     public abstract class Player {
         private String name;
+        private int maxHp;
         private int hp;
 
-        public Player(String name, int hp) {
+        public Player(String name, String maxHp, int hp) {
             this.name = name;
+            this.name = maxHp;
             this.hp = hp;
         }
 
