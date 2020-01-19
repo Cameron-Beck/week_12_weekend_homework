@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd727534-6ae9-4989-8495-c621b42892a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/abilities/spells/Spells.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player/fighter/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/fighter/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player/fighter/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/fighter/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player/healer/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/healer/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player/healer/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/healer/Healer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player/mage/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/mage/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/player/mage/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/player/mage/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WeaponTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WeaponTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/player/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/fighter/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/player/fighter/Fighter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/fighter/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/player/fighter/Knight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/healer/Cleric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/player/healer/Cleric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/healer/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/player/healer/Healer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/mage/Mage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/player/mage/Mage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/player/mage/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/player/mage/Wizard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PlayerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PlayerTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PlayerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WeaponTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WeaponTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WeaponTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WeaponTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behaviors/IAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behaviors/IAttack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/abilities/weapons/Weapon.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-6">
@@ -116,6 +95,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behaviors/IAttack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WeaponTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,19 +115,6 @@
                 <element signature="e#501#502#0" expanded="true" />
                 <element signature="e#554#555#0" expanded="true" />
                 <element signature="e#584#585#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/player/healer/Healer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-              <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,6 +164,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -213,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/abilities/spells/Spells.java" />
         <option value="$PROJECT_DIR$/src/main/java/abilities/weapons/Sword.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behaviors/IAttack.java" />
       </list>
     </option>
   </component>
@@ -420,7 +397,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -430,12 +406,12 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18820679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -622,6 +598,13 @@
             <element signature="e#444#445#0" expanded="true" />
             <element signature="e#480#481#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviors/IAttack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
