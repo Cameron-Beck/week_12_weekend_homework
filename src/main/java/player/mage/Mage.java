@@ -4,7 +4,7 @@ import player.Player;
 
 public abstract class Mage extends Player{
 
-    public Mage(String name, String maxHp, int hp) {
+    public Mage(String name, int maxHp, int hp) {
         super(name, maxHp, hp);
     }
 }

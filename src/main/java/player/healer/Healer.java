@@ -4,7 +4,7 @@ import player.Player;
 
     public abstract class Healer extends Player {
 
-        public Healer(String name, String maxHp, int hp) {
+        public Healer(String name, int maxHp, int hp) {
             super(name, maxHp, hp);
         }
     }

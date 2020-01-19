@@ -11,7 +11,7 @@ public class PlayerTest {
 
     @Before
     public void before(){
-     player1 = new Player("Steve", 100) {
+     player1 = new Player("Steve", 100, 100) {
      };
     }
 
@@ -23,6 +23,17 @@ public class PlayerTest {
     @Test
     public void canGetHP(){
         assertEquals(100, player1.getHp());
+    }
+
+    @Test
+    public void canGetMaxHp(){
+        assertEquals(100, player1.getMaxHp());
+    }
+
+    @Test
+    public void canSetMaxHp(){
+        player1.setMaxHp(120);
+        assertEquals(120, player1.getMaxHp());
     }
 
     @Test

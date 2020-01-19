@@ -4,7 +4,7 @@ import player.Player;
 
 public abstract class Fighter extends Player {
 
-    public Fighter(String name, String maxHp, int hp) {
+    public Fighter(String name, int maxHp, int hp) {
         super(name, maxHp, hp);
     }
 }

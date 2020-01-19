@@ -6,9 +6,9 @@ package player;
         private int maxHp;
         private int hp;
 
-        public Player(String name, String maxHp, int hp) {
+        public Player(String name, int maxHp, int hp) {
             this.name = name;
-            this.name = maxHp;
+            this.maxHp = maxHp;
             this.hp = hp;
         }
 
@@ -22,6 +22,14 @@ package player;
 
         public int getHp() {
             return hp;
+        }
+
+        public int getMaxHp() {
+            return maxHp;
+        }
+
+        public void setMaxHp(int maxHp) {
+            this.maxHp = maxHp;
         }
 
         public void setHp(int hp) {
